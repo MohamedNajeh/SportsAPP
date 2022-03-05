@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell" rowHeight="217" id="KGk-i7-Jjw" customClass="LeageFavCell" customModule="SportsAPP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="426" height="217"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="426" height="217"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMu-BP-2uQ">
+                        <rect key="frame" x="10" y="10" width="406" height="197"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Chw-Nc-6IP">
+                            <rect key="frame" x="0.0" y="0.0" width="406" height="197"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <blurEffect style="regular"/>
+                    </visualEffectView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vza-b0-kUZ">
+                        <rect key="frame" x="15" y="48.5" width="120" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="5sh-Ri-Cyx"/>
+                            <constraint firstAttribute="width" constant="120" id="kJd-KN-IhP"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OzD-Qx-VUW">
+                        <rect key="frame" x="145" y="98.5" width="199" height="20"/>
+                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ElO-KZ-otn">
+                        <rect key="frame" x="364" y="82.5" width="52" height="52"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="52" id="92M-aZ-eqM"/>
+                            <constraint firstAttribute="height" constant="52" id="RPo-KF-xJM"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="youtube"/>
+                        <connections>
+                            <action selector="showYoutubeActionPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Y2E-pv-CiW"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="eMu-BP-2uQ" secondAttribute="trailing" constant="10" id="6gx-ye-hZI"/>
+                    <constraint firstItem="Vza-b0-kUZ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="9va-UY-l3s"/>
+                    <constraint firstItem="OzD-Qx-VUW" firstAttribute="leading" secondItem="Vza-b0-kUZ" secondAttribute="trailing" constant="10" id="Icc-HD-TZU"/>
+                    <constraint firstItem="OzD-Qx-VUW" firstAttribute="centerY" secondItem="Vza-b0-kUZ" secondAttribute="centerY" id="JcY-gZ-geL"/>
+                    <constraint firstItem="Vza-b0-kUZ" firstAttribute="leading" secondItem="eMu-BP-2uQ" secondAttribute="leading" constant="5" id="SVx-cj-a7e"/>
+                    <constraint firstItem="ElO-KZ-otn" firstAttribute="leading" secondItem="OzD-Qx-VUW" secondAttribute="trailing" constant="20" id="bJe-L4-fjd"/>
+                    <constraint firstAttribute="bottom" secondItem="eMu-BP-2uQ" secondAttribute="bottom" constant="10" id="ngY-10-Q7k"/>
+                    <constraint firstAttribute="trailing" secondItem="ElO-KZ-otn" secondAttribute="trailing" constant="10" id="onK-M6-Y1D"/>
+                    <constraint firstItem="eMu-BP-2uQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="uIz-Kh-tF7"/>
+                    <constraint firstItem="eMu-BP-2uQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ygx-cb-x9A"/>
+                    <constraint firstItem="ElO-KZ-otn" firstAttribute="centerY" secondItem="Vza-b0-kUZ" secondAttribute="centerY" id="yrx-tM-sjg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="backView" destination="eMu-BP-2uQ" id="FAR-wQ-rsn"/>
+                <outlet property="btnOutlet" destination="ElO-KZ-otn" id="fzH-TL-Xmk"/>
+                <outlet property="imgV" destination="Vza-b0-kUZ" id="Y9Y-K2-rpX"/>
+                <outlet property="leageNameLbl" destination="OzD-Qx-VUW" id="ZEH-gg-l4S"/>
+            </connections>
+            <point key="canvasLocation" x="214.49275362318843" y="37.165178571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="youtube" width="40" height="40"/>
+    </resources>
+</document>

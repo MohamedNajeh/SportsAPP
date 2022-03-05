@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="gTV-IL-0wX" customClass="LatestCell" customModule="SportsAPP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="470" height="199"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="470" height="199"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9jD-pc-0Pg">
+                        <rect key="frame" x="0.0" y="0.0" width="470" height="199"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0mQ-oO-lFX">
+                            <rect key="frame" x="0.0" y="0.0" width="470" height="199"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 - 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PiO-q8-sOL">
+                                    <rect key="frame" x="8" y="148" width="454" height="36"/>
+                                    <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Yn-F3-rU1">
+                                    <rect key="frame" x="0.0" y="0.0" width="470" height="143"/>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="6Yn-F3-rU1" firstAttribute="height" secondItem="0mQ-oO-lFX" secondAttribute="height" multiplier="0.718593" id="AhW-NF-OD3"/>
+                                <constraint firstItem="6Yn-F3-rU1" firstAttribute="top" secondItem="0mQ-oO-lFX" secondAttribute="top" id="Bcb-O6-WH0"/>
+                                <constraint firstItem="PiO-q8-sOL" firstAttribute="leading" secondItem="0mQ-oO-lFX" secondAttribute="leading" constant="8" id="KJc-P7-nUA"/>
+                                <constraint firstItem="PiO-q8-sOL" firstAttribute="centerX" secondItem="0mQ-oO-lFX" secondAttribute="centerX" id="SRj-ut-AZT"/>
+                                <constraint firstAttribute="bottom" secondItem="PiO-q8-sOL" secondAttribute="bottom" constant="15" id="fje-Id-aVZ"/>
+                                <constraint firstAttribute="trailing" secondItem="6Yn-F3-rU1" secondAttribute="trailing" id="t4J-M4-4KL"/>
+                                <constraint firstItem="6Yn-F3-rU1" firstAttribute="leading" secondItem="0mQ-oO-lFX" secondAttribute="leading" id="tO6-jb-4lc"/>
+                                <constraint firstItem="PiO-q8-sOL" firstAttribute="top" secondItem="6Yn-F3-rU1" secondAttribute="bottom" constant="5" id="tgH-tn-TGt"/>
+                                <constraint firstAttribute="trailing" secondItem="PiO-q8-sOL" secondAttribute="trailing" constant="8" id="v8q-eS-CKg"/>
+                            </constraints>
+                        </view>
+                        <blurEffect style="regular"/>
+                    </visualEffectView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="9jD-pc-0Pg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="LzY-7o-DYy"/>
+                <constraint firstItem="9jD-pc-0Pg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="QGX-qe-3hV"/>
+                <constraint firstAttribute="bottom" secondItem="9jD-pc-0Pg" secondAttribute="bottom" id="Wg5-V2-xSW"/>
+                <constraint firstAttribute="trailing" secondItem="9jD-pc-0Pg" secondAttribute="trailing" id="cUQ-iV-QQs"/>
+            </constraints>
+            <size key="customSize" width="470" height="199"/>
+            <connections>
+                <outlet property="backView" destination="9jD-pc-0Pg" id="lBD-PM-TPS"/>
+                <outlet property="imgV" destination="6Yn-F3-rU1" id="wiE-pv-kJy"/>
+                <outlet property="resultLbl" destination="PiO-q8-sOL" id="kap-bb-1hN"/>
+            </connections>
+            <point key="canvasLocation" x="269.56521739130437" y="52.566964285714285"/>
+        </collectionViewCell>
+    </objects>
+</document>

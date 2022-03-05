@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FavModel" representedClassName="FavModel" syncable="YES" codeGenerationType="class">
+        <attribute name="imgPath" optional="YES" attributeType="String"/>
+        <attribute name="leagueId" optional="YES" attributeType="String"/>
+        <attribute name="leagueName" optional="YES" attributeType="String"/>
+        <attribute name="youtubePath" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="FavModel" positionX="-63" positionY="-18" width="128" height="89"/>
+    </elements>
+</model>
