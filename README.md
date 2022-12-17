@@ -21,9 +21,11 @@ The things you'll need in order to use the app and how to install them
 - setup Xcode 
 - open project and install cocoa pods 
 -the application and take a tour
-<img src="https://user-images.githubusercontent.com/99803050/156900481-637664ae-fc13-47c2-aaca-66d5827f5900.png" width="300" height="550">
-<img src="https://user-images.githubusercontent.com/99803050/156900488-f4e58192-5f3c-404c-b0c6-46d053418fdd.png" width="300" height="550">
-<img src="https://user-images.githubusercontent.com/99803050/156900499-47c32a72-690e-4d7d-9e9b-294d439ed4dc.png" width="300" height="550">
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/99803050/156900481-637664ae-fc13-47c2-aaca-66d5827f5900.png" width="300" height="550">
+  <img src="https://user-images.githubusercontent.com/99803050/156900488-f4e58192-5f3c-404c-b0c6-46d053418fdd.png" width="300" height="550">
+  <img src="https://user-images.githubusercontent.com/99803050/156900499-47c32a72-690e-4d7d-9e9b-294d439ed4dc.png" width="300" height="550">
+</p>
 <img src="https://user-images.githubusercontent.com/99803050/156900505-02cf99e8-3dcd-444a-aed5-73fe13f02e11.png" width="300" height="550">
 <img src="https://user-images.githubusercontent.com/99803050/156900515-1e211dd7-9175-484c-b10d-5f0c3da78010.png" width="300" height="550">
 <img src="https://user-images.githubusercontent.com/99803050/156900522-1e9320c4-3eb8-404e-942b-65928dbde5b7.png" width="300" height="550">
