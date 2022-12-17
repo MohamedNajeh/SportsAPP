@@ -21,7 +21,7 @@ The things you'll need in order to use the app and how to install them
 - setup Xcode 
 - open project and install cocoa pods 
 -the application and take a tour                                                                                                
-![appCover](https://user-images.githubusercontent.com/99803050/156900481-637664ae-fc13-47c2-aaca-66d5827f5900.png =100x200) 
+![appCover](https://user-images.githubusercontent.com/99803050/156900481-637664ae-fc13-47c2-aaca-66d5827f5900.png | width = 100) 
 ![leaguesList](https://user-images.githubusercontent.com/99803050/156900488-f4e58192-5f3c-404c-b0c6-46d053418fdd.png)
 ![teams11](https://user-images.githubusercontent.com/99803050/156900499-47c32a72-690e-4d7d-9e9b-294d439ed4dc.png)
 ![teams](https://user-images.githubusercontent.com/99803050/156900505-02cf99e8-3dcd-444a-aed5-73fe13f02e11.png)
